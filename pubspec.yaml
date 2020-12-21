@@ -1,0 +1,45 @@
+name: galaxy
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  #ud_widget is my own package
+  ud_widgets: ^0.0.8
+
+  simple_animations: ^2.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_name: "^0.0.1"
+  flutter_launcher_icons: "^0.8.0"
+
+
+flutter_launcher_name:
+  name: "Galaxy"
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.jpg"
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/black_hole.png
+    - assets/galaxy.png
